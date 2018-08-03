@@ -1,45 +1,53 @@
 穿山甲内网代理
 =======
-基于workerman的GatewayWorker框架开发的一款高性能支持分布式部署的聊天室系统。
+基于workerman的GatewayWorker框架开发的一款高性能代理系统。
 
 GatewayWorker框架文档：http://www.workerman.net/gatewaydoc/
 
+介绍
+======
+####pangolin_proxy是什么？
+基于workerman的GatewayWorker框架开发的一款高性能代理系统。实现了内网IP映射到公网，实现了将公网请求代理到内网
+####pangolin_proxy能做什么？
+
+ * 内网搭建网络服务器，实现公网访问内网资源
+ * 适用于需要公网联调的一些开发测试场景 例如：直接在内网调试支付，或者直接在内网调试微信公众号等，不必再将代码发到公网调试，提高开发效率
+
  特性
 ======
- * 使用websocket协议
- * 多浏览器支持（浏览器支持html5或者flash任意一种即可）
- * 多房间支持
- * 私聊支持
- * 掉线自动重连
- * 微博图片自动解析
- * 聊天内容支持微博表情
- * 支持多服务器部署
- * 业务逻辑全部在一个文件中，快速入门可以参考这个文件[Applications/Chat/Event.php](https://github.com/walkor/workerman-chat/blob/master/Applications/Chat/Event.php)   
+ * 使用socket协议
+ * 请求代理转发
+ * 断线重连，提高内网稳定性
   
 下载安装
 =====
-1、git clone https://github.com/walkor/workerman-chat
+1、git clone https://github.com/xyzj91/pangolin_proxy
 
-2、composer install
+运行流程
+=====
+1.将服务端部署到公网服务器上并启动
+2.客户端修改配置文件：Common/Config.php 中的 server_path 修改为公网服务器的IP地址
+3.启动客户端
 
 启动停止(Linux系统)
 =====
-以debug方式启动  
-```php start.php start  ```
+启动server端 （server端必须部署在公网服务器上）
 
-以daemon方式启动  
-```php start.php start -d ```
+```php start_server.php start -d ```
+
+启动client端 （client端部署在内网机上） 
+```php start_client.php start -d ```
 
 启动(windows系统)
 ======
-双击start_for_win.bat  
+启动server端 （server端必须部署在公网服务器上）
+双击start_server_for_win.bat  
+
+启动client端 （client端部署在内网机上）
+双击start_client_for_win.bat
 
 注意：  
 windows系统下无法使用 stop reload status 等命令  
 如果无法打开页面请尝试关闭服务器防火墙  
 
-测试
-=======
-浏览器访问 http://服务器ip或域:55151,例如http://127.0.0.1:55151
 
- [更多请访问www.workerman.net](http://www.workerman.net/workerman-chat)
