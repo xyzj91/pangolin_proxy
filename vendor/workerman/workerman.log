@@ -1,0 +1,359 @@
+2018-04-22 00:01:03 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to undefined function sendData() in D:\WWW\nat_proxy\workerman-chat\start_client.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(81): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 44"
+2018-04-22 00:01:05 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to undefined function sendData() in D:\WWW\nat_proxy\workerman-chat\start_client.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(81): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 44"
+2018-04-22 00:01:08 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to undefined function sendData() in D:\WWW\nat_proxy\workerman-chat\start_client.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(81): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 44"
+2018-04-22 00:01:11 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to undefined function sendData() in D:\WWW\nat_proxy\workerman-chat\start_client.php:44
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(81): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 44"
+2018-04-22 00:07:09 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function reConnect() on null in D:\WWW\nat_proxy\workerman-chat\start_client.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(83): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 40"
+2018-04-22 00:07:13 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function reConnect() on null in D:\WWW\nat_proxy\workerman-chat\start_client.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(83): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 40"
+2018-04-22 00:07:17 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function reConnect() on null in D:\WWW\nat_proxy\workerman-chat\start_client.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(83): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 40"
+2018-04-22 00:07:26 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function reConnect() on null in D:\WWW\nat_proxy\workerman-chat\start_client.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(83): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 40"
+2018-04-22 00:07:30 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function reConnect() on null in D:\WWW\nat_proxy\workerman-chat\start_client.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(83): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 40"
+2018-04-22 00:07:34 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function reConnect() on null in D:\WWW\nat_proxy\workerman-chat\start_client.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(83): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 40"
+2018-04-22 00:07:38 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function reConnect() on null in D:\WWW\nat_proxy\workerman-chat\start_client.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(83): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 40"
+2018-04-22 00:07:42 pid:1 Worker process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function reConnect() on null in D:\WWW\nat_proxy\workerman-chat\start_client.php:40
+Stack trace:
+#0 [internal function]: {closure}()
+#1 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(233): call_user_func_array(Object(Closure), Array)
+#2 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Events\Select.php(274): Workerman\Events\Select->tick()
+#3 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#4 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#5 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#6 D:\WWW\nat_proxy\workerman-chat\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#7 D:\WWW\nat_proxy\workerman-chat\start_client.php(83): Workerman\Worker::runAll()
+#8 {main}
+  thrown in D:\WWW\nat_proxy\workerman-chat\start_client.php on line 40"
+2018-04-22 22:39:23 pid:1 TypeError: Argument 2 passed to Workerman\Protocols\Http::encode() must be an instance of Workerman\Connection\TcpConnection, null given, called in D:\WWW\nat_proxy\Common\Comm.func.php on line 116 and defined in D:\WWW\nat_proxy\vendor\workerman\workerman\Protocols\Http.php:224
+Stack trace:
+#0 D:\WWW\nat_proxy\Common\Comm.func.php(116): Workerman\Protocols\Http::encode('{"code":0,"mess...', NULL)
+#1 D:\WWW\nat_proxy\start_remote.php(50): sendHttpResult('{"code":0,"mess...', NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 D:\WWW\nat_proxy\start_remote.php(120): Workerman\Worker::runAll()
+#11 {main}
+2018-04-22 22:39:23 pid:1 Worker process terminated
+2018-04-22 22:39:54 pid:1 TypeError: Argument 2 passed to Workerman\Protocols\Http::encode() must be an instance of Workerman\Connection\TcpConnection, null given, called in D:\WWW\nat_proxy\Common\Comm.func.php on line 116 and defined in D:\WWW\nat_proxy\vendor\workerman\workerman\Protocols\Http.php:224
+Stack trace:
+#0 D:\WWW\nat_proxy\Common\Comm.func.php(116): Workerman\Protocols\Http::encode('{"code":0,"mess...', NULL)
+#1 D:\WWW\nat_proxy\start_remote.php(50): sendHttpResult('{"code":0,"mess...', NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 D:\WWW\nat_proxy\start_remote.php(120): Workerman\Worker::runAll()
+#11 {main}
+2018-04-22 22:39:54 pid:1 Worker process terminated
+2018-04-22 22:40:17 pid:1 TypeError: Argument 2 passed to Workerman\Protocols\Http::encode() must be an instance of Workerman\Connection\TcpConnection, null given, called in D:\WWW\nat_proxy\Common\Comm.func.php on line 116 and defined in D:\WWW\nat_proxy\vendor\workerman\workerman\Protocols\Http.php:224
+Stack trace:
+#0 D:\WWW\nat_proxy\Common\Comm.func.php(116): Workerman\Protocols\Http::encode('{"code":0,"mess...', NULL)
+#1 D:\WWW\nat_proxy\start_remote.php(50): sendHttpResult('{"code":0,"mess...', NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 D:\WWW\nat_proxy\start_remote.php(119): Workerman\Worker::runAll()
+#11 {main}
+2018-04-22 22:40:17 pid:1 Worker process terminated
+2018-04-22 22:41:01 pid:1 TypeError: Argument 2 passed to Workerman\Protocols\Http::encode() must be an instance of Workerman\Connection\TcpConnection, null given, called in D:\WWW\nat_proxy\Common\Comm.func.php on line 116 and defined in D:\WWW\nat_proxy\vendor\workerman\workerman\Protocols\Http.php:224
+Stack trace:
+#0 D:\WWW\nat_proxy\Common\Comm.func.php(116): Workerman\Protocols\Http::encode('{"code":0,"mess...', NULL)
+#1 D:\WWW\nat_proxy\start_remote.php(49): sendHttpResult('{"code":0,"mess...', NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 D:\WWW\nat_proxy\start_remote.php(118): Workerman\Worker::runAll()
+#11 {main}
+2018-04-22 22:41:01 pid:1 Worker process terminated
+2018-04-22 22:42:01 pid:1 TypeError: Argument 2 passed to Workerman\Protocols\Http::encode() must be an instance of Workerman\Connection\TcpConnection, null given, called in D:\WWW\nat_proxy\Common\Comm.func.php on line 116 and defined in D:\WWW\nat_proxy\vendor\workerman\workerman\Protocols\Http.php:224
+Stack trace:
+#0 D:\WWW\nat_proxy\Common\Comm.func.php(116): Workerman\Protocols\Http::encode('{"code":0,"mess...', NULL)
+#1 D:\WWW\nat_proxy\start_remote.php(49): sendHttpResult('{"code":0,"mess...', NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 D:\WWW\nat_proxy\start_remote.php(118): Workerman\Worker::runAll()
+#11 {main}
+2018-04-22 22:42:01 pid:1 Worker process terminated
+2018-04-22 22:45:30 pid:1 TypeError: Argument 2 passed to Workerman\Protocols\Http::encode() must be an instance of Workerman\Connection\TcpConnection, null given, called in D:\WWW\nat_proxy\Common\Comm.func.php on line 116 and defined in D:\WWW\nat_proxy\vendor\workerman\workerman\Protocols\Http.php:224
+Stack trace:
+#0 D:\WWW\nat_proxy\Common\Comm.func.php(116): Workerman\Protocols\Http::encode('{"code":0,"mess...', NULL)
+#1 D:\WWW\nat_proxy\start_remote.php(54): sendHttpResult('{"code":0,"mess...', NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 D:\WWW\nat_proxy\start_remote.php(120): Workerman\Worker::runAll()
+#11 {main}
+2018-04-22 22:45:30 pid:1 Worker process terminated
+2018-04-22 22:46:30 pid:1 TypeError: Argument 2 passed to Workerman\Protocols\Http::encode() must be an instance of Workerman\Connection\TcpConnection, null given, called in D:\WWW\nat_proxy\Common\Comm.func.php on line 116 and defined in D:\WWW\nat_proxy\vendor\workerman\workerman\Protocols\Http.php:224
+Stack trace:
+#0 D:\WWW\nat_proxy\Common\Comm.func.php(116): Workerman\Protocols\Http::encode('{"code":0,"mess...', NULL)
+#1 D:\WWW\nat_proxy\start_remote.php(53): sendHttpResult('{"code":0,"mess...', NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 D:\WWW\nat_proxy\start_remote.php(119): Workerman\Worker::runAll()
+#11 {main}
+2018-04-22 22:46:30 pid:1 Worker process terminated
+2018-04-22 22:50:20 pid:1 Error: Call to undefined function runBat() in D:\WWW\nat_proxy\start_client.php:67
+Stack trace:
+#0 D:\WWW\nat_proxy\start_client.php(32): remoteOption(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#1 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#2 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#4 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#9 D:\WWW\nat_proxy\start_client.php(133): Workerman\Worker::runAll()
+#10 {main}
+2018-04-22 22:50:20 pid:1 Worker process terminated
+2018-04-22 22:51:09 pid:1 Error: Call to undefined function runBat() in D:\WWW\nat_proxy\start_client.php:76
+Stack trace:
+#0 D:\WWW\nat_proxy\start_client.php(32): remoteOption(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#1 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#2 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#4 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#9 D:\WWW\nat_proxy\start_client.php(133): Workerman\Worker::runAll()
+#10 {main}
+2018-04-22 22:51:09 pid:1 Worker process terminated
+2018-04-22 22:52:03 pid:1 Error: Call to undefined function runBat() in D:\WWW\nat_proxy\start_client.php:76
+Stack trace:
+#0 D:\WWW\nat_proxy\start_client.php(32): remoteOption(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#1 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#2 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#4 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#9 D:\WWW\nat_proxy\start_client.php(133): Workerman\Worker::runAll()
+#10 {main}
+2018-04-22 22:52:03 pid:1 Worker process terminated
+2018-04-22 22:53:40 pid:1 Error: Call to undefined function runBat() in D:\WWW\nat_proxy\start_client.php:76
+Stack trace:
+#0 D:\WWW\nat_proxy\start_client.php(32): remoteOption(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#1 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#2 D:\WWW\nat_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"remote...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#4 D:\WWW\nat_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#5 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#6 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#7 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#8 D:\WWW\nat_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#9 D:\WWW\nat_proxy\start_client.php(135): Workerman\Worker::runAll()
+#10 {main}
+2018-04-22 22:53:40 pid:1 Worker process terminated
+2018-08-03 03:57:03 pid:1 Error: Call to undefined function dump() in D:\WWW\pangolin_proxy\start_client.php:68
+Stack trace:
+#0 D:\WWW\pangolin_proxy\start_client.php(44): http_proxy(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#1 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"http_p...')
+#2 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"http_p...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#4 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#5 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#6 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#7 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#8 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#9 D:\WWW\pangolin_proxy\start_client.php(124): Workerman\Worker::runAll()
+#10 {main}
+2018-08-03 03:57:03 pid:1 Worker process terminated
+2018-08-03 03:57:40 pid:1 Error: Call to undefined function dump() in D:\WWW\pangolin_proxy\start_client.php:68
+Stack trace:
+#0 D:\WWW\pangolin_proxy\start_client.php(44): http_proxy(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#1 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"http_p...')
+#2 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"http_p...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#4 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#5 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#6 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#7 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#8 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#9 D:\WWW\pangolin_proxy\start_client.php(124): Workerman\Worker::runAll()
+#10 {main}
+2018-08-03 03:57:40 pid:1 Worker process terminated
+2018-08-03 03:58:52 pid:1 Error: Call to undefined function dump() in D:\WWW\pangolin_proxy\start_client.php:68
+Stack trace:
+#0 D:\WWW\pangolin_proxy\start_client.php(44): http_proxy(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#1 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), '{"type":"http_p...')
+#2 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Connection\TcpConnection.php(639): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), '{"type":"http_p...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#4 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#5 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#6 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#7 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#8 D:\WWW\pangolin_proxy\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#9 D:\WWW\pangolin_proxy\start_client.php(124): Workerman\Worker::runAll()
+#10 {main}
+2018-08-03 03:58:52 pid:1 Worker process terminated
+2018-08-03 08:33:26 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:27 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:28 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:29 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:30 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:31 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:33 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:39 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:40 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:41 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:42 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
+2018-08-03 08:33:43 pid:1 Gateway: Worker->name conflict. Key:127.0.0.1:ChatBusinessWorker:0
